@@ -27,5 +27,12 @@ def run():
         print(pais + ' tiene ' + str(poblacion) + ' habitantes')
 
 
+def myList():
+    new_list=[1,2,3,4,5,6]
+    new_list.insert(1,"hola")
+    print(new_list)
+    new_list.remove(4)
+    print(new_list)
+
 if __name__ == '__main__':
-    run()
+    myList()
